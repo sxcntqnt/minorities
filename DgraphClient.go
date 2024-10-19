@@ -1,3 +1,9 @@
+package main
+
+import (
+	"github.com/dgraph-io/ratel"
+)	
+
 // Function to create a Dgraph client
 func createDgraphClient() *dgo.Dgraph {
     conn, err := grpc.Dial(dgraphServer, grpc.WithInsecure())
@@ -40,3 +46,4 @@ func dgraphServerExample() {
     fmt.Println("Server is listening at http://localhost:8080")
     log.Fatal(http.ListenAndServe(":8080", nil))
 }
+

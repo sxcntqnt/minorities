@@ -1,1 +1,4 @@
 vendor/
+h3/
+.env
+arduino/

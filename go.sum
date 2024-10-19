@@ -5,6 +5,8 @@ github.com/daviddengcn/go-colortext v0.0.0-20180409174941-186a3d44e920 h1:d/cVoZ
 github.com/daviddengcn/go-colortext v0.0.0-20180409174941-186a3d44e920/go.mod h1:dv4zxwHi5C/8AeI+4gX4dCWOIvNi7I6JCSX0HvlKPgE=
 github.com/dgraph-io/dgo/v210 v210.0.0-20230328113526-b66f8ae53a2d h1:abDbP7XBVgwda+h0J5Qra5p2OQpidU2FdkXvzCKL+H8=
 github.com/dgraph-io/dgo/v210 v210.0.0-20230328113526-b66f8ae53a2d/go.mod h1:wKFzULXAPj3U2BDAPWXhSbQQNC6FU1+1/5iika6IY7g=
+github.com/dgraph-io/ratel v0.0.0-20240930114126-b25c314ab560 h1:OWgzPfQv43WMLGSKb+cOlK0cZnXteYfgYNPje62mDxQ=
+github.com/dgraph-io/ratel v0.0.0-20240930114126-b25c314ab560/go.mod h1:KI4w4hZlwFLGYczvO1K20bcEhHWB2o9e0J9Zje5zvSI=
 github.com/dixonwille/wlog/v3 v3.0.1 h1:ViTSsNNndHlKW5S89x5O0KSTpTT9zdPqrkA/TZYY8+s=
 github.com/dixonwille/wlog/v3 v3.0.1/go.mod h1:fPYZR9Ne5gFh3N8b3CuXVWHWxkY6Yg1wCeS3Km6Nc0I=
 github.com/dixonwille/wmenu/v5 v5.1.0 h1:sKBHDoQ945NRvK0Eitd0kHDYHl1IYOSr1sdCK9c+Qr0=
