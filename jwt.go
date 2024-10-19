@@ -1,10 +1,22 @@
 package main
 
 import (
-	"github.com/golang-jwt/jwt"
-	"time"
 	"fmt"
+	"github.com/golang-jwt/jwt"
+	"github.com/uber/h3-go/v4"
+	"time"
 )
+
+func ExampleLatLngToCell() {
+	latLng := h3.NewLatLng(37.775938728915946, -122.41795063018799)
+	resolution := 9 // between 0 (biggest cell) and 15 (smallest cell)
+
+	cell := h3.LatLngToCell(latLng, resolution)
+
+	fmt.Printf("%s", cell)
+	// Output:
+	// 8928308280fffff
+}
 
 func GenerateToken() (string, error) {
 	// Set the secret key

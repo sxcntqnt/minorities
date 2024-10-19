@@ -3,12 +3,14 @@ module motown
 go 1.19
 
 require (
+	github.com/dghubble/oauth1 v0.7.3
 	github.com/dgraph-io/dgo/v210 v210.0.0-20230328113526-b66f8ae53a2d
 	github.com/dgraph-io/ratel v0.0.0-20240930114126-b25c314ab560
 	github.com/dixonwille/wmenu/v5 v5.1.0
 	github.com/golang-jwt/jwt v3.2.2+incompatible
 	github.com/jacobsa/go-serial v0.0.0-20180131005756-15cf729a72d4
 	github.com/spf13/viper v1.19.0
+	github.com/uber/h3-go/v4 v4.1.2
 )
 
 require (
