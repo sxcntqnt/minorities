@@ -1,0 +1,38 @@
+# Build artifacts
+/target/
+
+# If using Cargo.lock for library packages
+# (keep Cargo.lock for binary projects)
+# However, if this is a binary package, keep Cargo.lock for reproducible builds
+# Uncomment the next line for library projects
+# /Cargo.lock
+
+# Intermediate files produced by rustup/cargo
+**/*.rs.bk
+
+# Generated documentation
+/target/doc/
+
+# Compilation artifacts (optional)
+*.rs.bk
+*.rlib
+
+# Editors and IDEs
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# By default, ignore binaries and executables
+*.exe
+*.out
+*.app
+*.dylib
+*.dll
+*.so
