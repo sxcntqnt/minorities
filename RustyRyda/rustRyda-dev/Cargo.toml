@@ -1,0 +1,12 @@
+[package]
+name = "rustRyda"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tonic = "0.6" # gRPC framework
+tokio = { version = "1", features = ["full"] }
+prost = "0.9" # Protocol Buffers implementation
+
+[build-dependencies]
+tonic-build = "0.6"
